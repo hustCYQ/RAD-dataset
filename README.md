@@ -61,7 +61,7 @@ RAD-dataset
 ## Annotation
 
 
-<img src="./img/fig3" width=400 alt="Anotation phase" align=center>
+<img src="./img/fig3.png" width=400 alt="Anotation phase" align=center>
 
 ## Benchmark
 
@@ -83,7 +83,7 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 <img src="./img/fig5.png" width=900 alt="vis" align=center>
 
 ## Acknowledgments.
-This work is supported by the National Key R&D Program of China (Grant NO. 2022YFF1202903) and the National Natural Science Foundation of China (Grant NO. 62122035, 62206122).
+Resrach supported by the Fundamental Research Funds for the Central Universities: HUST:2021GCRC058.
 
 
 ## License
@@ -94,10 +94,10 @@ The dataset is released under the CC BY 4.0 license.
 If you find this paper and repository useful, please cite our paper☺️.
 
 ```
-@inproceedings{liu2023real3d,
-  title={Real3D-AD: A Dataset of Point Cloud Anomaly Detection},
-  author={Liu, Jiaqi and Xie, Guoyang and Li, Xinpeng and Wang, Jinbao and Liu, Yong and Wang, Chengjie and Zheng, Feng and others},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
-  year={2023}
+@inproceedings{Cheng2024RAD,
+  title={RAD: A Comprehensive Dataset for Benchmarking the Robustness of Image Anomaly Detection},
+  author={Yuqi Cheng, Yunkang Cao, Rui Chen and Weiming Shen},
+  booktitle={2024 IEEE 20th International Conference on Automation Science and Engineering},
+  year={2024}
 }
 ```
