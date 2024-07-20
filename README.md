@@ -1,20 +1,16 @@
-# Real3D-AD: A Dataset of Point Cloud Anomaly Detection
+# RAD: A Comprehensive Dataset for Benchmarking the Robustness of Image Anomaly Detection
 
-Jiaqi Liu*, Guoyang Xie*, Ruitao Chen*, Xinpeng Li, Jinbao Wang†, Yong Liu, Chengjie Wang, and Feng Zheng†
+Yuqi Cheng, Yunkang Cao, Rui Chen, Weiming Shen*
 
-(* Equal contribution; † Corresponding authors)
+(*Corresponding authors)
 
-Our paper has been accepted by NeurIPS 2023 Datasets & Benchmarks Track. [[Paper]](https://arxiv.org/abs/2309.13226)
+Our paper has been accepted by CASE 2024 [[Paper]](https://arxiv.org/abs/2406.07176)
 
 # Overview
-This project aims to construct a new dataset of **high-resolution 3D point clouds** for anomaly detection tasks in real-world scenes.
-
-**Real3D-AD** can be used for training and testing 3D anonmaly detection algorithms.
-
-Note that different from RGB + Depth patterns, we **only** provide 3D point clouds for users.
+This study introduces a Robust Anomaly Detection (RAD) dataset with **free views, uneven illuminations, and blurry collections** to systematically evaluate the **robustness** of current anomaly detection methods.
 
 
-# Real3D-AD
+# RAD
 
 <img src="./doc/real3d.png" width=900 alt="Real3D Dataset" align=center>
 
