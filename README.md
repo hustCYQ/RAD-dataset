@@ -12,10 +12,12 @@ This study introduces a Robust Anomaly Detection (RAD) dataset with **free views
 
 # RAD
 
+<img src="./img/fig4.png" width=900 alt="RAD Dataset" align=center>
+
 Following the mainstream unsupervised anomaly detection setting (MVTec), we collected a total of 286 normal samples, of which 213 are used for training, and the remaining 73 for testing. Additionally, 327, 293, 281, and 323 abnormal samples across the four categories are used for testing, respectively.
 
 <img src="./img/tab1.png" width=400 alt="RAD Dataset" align=center>
-<img src="./img/fig4.png" width=900 alt="RAD Dataset" align=center>
+
 
 
 ## Download
@@ -52,6 +54,7 @@ Normal scenarios depict a work platform with multiple metal holes, whereas the a
 ## Annotation
 
 Each abnormal sample has been accurately labeled.
+
 <img src="./img/fig3.png" width=400 alt="Anotation phase" align=center>
 
 ## Benchmark
