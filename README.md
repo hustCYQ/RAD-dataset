@@ -27,24 +27,19 @@ Real3D-AD comprises a total of 1,254 samples that are distributed across 12 dist
 + To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad-ply.zip(google drive)](https://drive.google.com/file/d/1lHjvyVquuO8-ROOYcnf7O_lliL1Wa36V/view?usp=sharing) or [real3d-ad-ply.zip(baidu disk：vvz1)](https://pan.baidu.com/s/1BRdJ8oSwrpAPxTOEwUrjdw)
 
 
-### Data preparation
-- Download real3d-ad-pcd.zip and extract into `./data/`
+### Data Struct
+
 ```
-data
-├── airplane
+RAD-dataset
+├── bolt
     ├── train
-        ├── 1_prototype.pcd
-        ├── 2_prototype.pcd
-        ...
+        ├── good
     ├── test
-        ├── 1_bulge.pcd
-        ├── 2_sink.pcd
-        ...
-    ├── gt
-        ├── 1_bulge.txt
-        ├── 2_sink.txt
-        ... 
-├── car
+        ├── good
+        ├── defect
+    ├── ground_truth
+        ├── defect
+├── ribbon
 ...
 ```
 
@@ -59,30 +54,14 @@ data
 
 ## Data Collection
 
-+ description of instruments
 
-<img src="./doc/instruments.png" width=300 alt="instruments" align=center>
-The PMAX-S130 optical system comprises a pair of lenses with low distortion properties, a high luminance LED, and a blue-ray filter. The blue light scanner is equipped with a lens filter that selectively allows only the blue light of a specific wavelength to pass through. The filter effectively screens the majority of blue light due to its relatively low concentration in both natural and artificial lighting. Nevertheless, using blue light-emitting light sources could pose a unique obstacle in this context. The image sensor can collect light using the lens aperture. Hence, the influence exerted by ambient light is vastly reduced.
-
-+ how to capture point clouds and complete one prototype
-
-<img src="./doc/make_prototypes.png" width=900 alt="make prototype" align=center>
-Initially, the stationary object undergoes scanning while the turntable completes a full revolution of 360°, enabling the scanner to capture images of the various facets of the object. Subsequently, the object undergoes reversal, and the process of rotation and scanning is reiterated. Following the manual calibration of the front and back scanning outcomes, the algorithm performs a precise calibration of the stitching process. If there are any gaps in the stitching outcome, the scan stitching process is reiterated until the point cloud is rendered.
-
-+ anomalies
-
-The anomalies pertaining to point clouds can be classified into two categories: incompleteness and redundancy. In the dataset, we named them bulge and sink. Besides, more samples are made by copying and cutting edges.
+<img src="./img/fig2.png" width=400 alt="instruments" align=center>
 
 
 ## Annotation
-+ how to annotate
 
-The collected point clouds are annotated using CloudCompare software
-CloudCompare is a 3D point cloud (grid) editing and processing software. Originally, it was designed to directly compare dense three-dimensional point clouds. It relies on a specific octree structure and provides excellent performance for tasks such as point cloud comparison.
-The anotation process of point cloud is shown in the figure below.
-<!-- ![image-20230605141032952](https://github.com/M-3LAB/H3D-AD/blob/main/doc/anotation.png) -->
 
-<img src="./doc/annotation.png" width=900 alt="Anotation phase" align=center>
+<img src="./img/fig3" width=400 alt="Anotation phase" align=center>
 
 ## Benchmark
 
