@@ -12,7 +12,7 @@ This study introduces a Robust Anomaly Detection (RAD) dataset with **free views
 
 # RAD
 
-<img src="./doc/real3d.png" width=900 alt="Real3D Dataset" align=center>
+<img src="./img/pic1.pdf" width=900 alt="Real3D Dataset" align=center>
 
 
 ## Summary
