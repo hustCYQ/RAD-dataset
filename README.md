@@ -55,7 +55,7 @@ RAD-dataset
 ## Data Collection
 
 
-<img src="./img/fig2.png" width=400 alt="instruments" align=center>
+<img src="./img/fig1.png" width=400 alt="instruments" align=center>
 
 
 ## Annotation
