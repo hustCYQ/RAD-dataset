@@ -52,7 +52,7 @@ data
 
 ## Dataset Statistic
 
-+ brief describe our dataset in Table
++ brief describe our dataset in Table 1.
   
 <img src="./img/tab1.png" width=400 alt="RAD Dataset" align=center>
 
@@ -96,12 +96,6 @@ We choose AUROC and AUPU as metric for object level and point level anomaly dete
 
 + benchmark results
 
-### Other methods on Real3D-AD
-
-Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection [[paper 2023]](https://arxiv.org/abs/2303.13194)[[code]](https://github.com/caoyunkang/CPMF)
-Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network [[paper 2023]](https://arxiv.org/abs/2311.14897)[[code]](https://github.com/Chopper-233/Anomaly-ShapeNet)
-+ PointCore: Efficient Unsupervised Point Cloud Anomaly Detector Using Local-Global Features [[paper 2024]](https://arxiv.org/abs/2403.01804)
-
 
 <img src="./img/tab2.png" width=900 alt="image-wise" align=center>
 
@@ -112,9 +106,6 @@ Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anoma
 ## Acknowledgments.
 This work is supported by the National Key R&D Program of China (Grant NO. 2022YFF1202903) and the National Natural Science Foundation of China (Grant NO. 62122035, 62206122).
 
-Our benchmark is built on [BTF](https://github.com/eliahuhorwitz/3D-ADS) and [M3DM](https://github.com/nomewang/M3DM) and [PatchCore](https://github.com/amazon-science/patchcore-inspection), thanks their extraordinary works!
-
-Thanks to all the people who worked hard to capture the data, especially Xinyu Tang for his efforts.
 
 ## License
 The dataset is released under the CC BY 4.0 license.
