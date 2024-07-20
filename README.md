@@ -22,8 +22,8 @@ Following the mainstream unsupervised anomaly detection setting (MVTec), we coll
 
 ## Download
 
-+ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format), click [real3d-ad-pcd.zip(google drive)](https://drive.google.com/file/d/1oM4qjhlIMsQc_wiFIFIVBvuuR8nyk2k0/view?usp=sharing) or [real3d-ad-pcd.zip(baidu disk: vrmi)](https://pan.baidu.com/s/1orQY3DjR6Z0wazMNPysShQ)
-+ To download the Real3D-AD dataset (Source data from camera, ply format), click [real3d-ad-ply.zip(google drive)](https://drive.google.com/file/d/1lHjvyVquuO8-ROOYcnf7O_lliL1Wa36V/view?usp=sharing) or [real3d-ad-ply.zip(baidu disk：vvz1)](https://pan.baidu.com/s/1BRdJ8oSwrpAPxTOEwUrjdw)
++ To download the Real3D-AD dataset (Dataset for training and evaluation, pcd format),  click [RAD-dataset.zip(baidu disk: k4a7)](https://pan.baidu.com/s/19VKrQpLQq-D6TGaN95q8Tw?pwd=k4a7), google drive will share.
+
 
 
 ### Data Struct
