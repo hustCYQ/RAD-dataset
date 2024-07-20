@@ -12,7 +12,7 @@ This study introduces a Robust Anomaly Detection (RAD) dataset with **free views
 
 # RAD
 
-<img src="./img/fig4.png" width=900 alt="Real3D Dataset" align=center>
+<img src="./img/fig4.png" width=900 alt="RAD Dataset" align=center>
 
 
 ## Summary
@@ -116,26 +116,11 @@ Complementary Pseudo Multimodal Feature for Point Cloud Anomaly Detection [[pape
 Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network [[paper 2023]](https://arxiv.org/abs/2311.14897)[[code]](https://github.com/Chopper-233/Anomaly-ShapeNet)
 + PointCore: Efficient Unsupervised Point Cloud Anomaly Detector Using Local-Global Features [[paper 2024]](https://arxiv.org/abs/2403.01804)
 
-|          | Object AUROC | Point AUROC | Max F1 Point | Point AP |
-|----------|------------|-----------|--------------|----------|
-| airplane | 0.632      | 0.618     | 0.023        | 0.010    |
-| candybar | 0.518      | 0.836     | 0.135        | 0.064    |
-| car      | 0.718      | 0.734     | 0.107        | 0.050    |
-| chicken  | 0.640      | 0.559     | 0.071        | 0.031    |
-| diamond  | 0.640      | 0.753     | 0.149        | 0.074    |
-| duck     | 0.554      | 0.719     | 0.042        | 0.018    |
-| fish     | 0.840      | 0.988     | 0.582        | 0.559    |
-| gemstone | 0.349      | 0.449     | 0.020        | 0.007    |
-| seahorse | 0.843      | 0.962     | 0.615        | 0.636    |
-| shell    | 0.393      | 0.725     | 0.052        | 0.025    |
-| starfish | 0.526      | 0.800     | 0.202        | 0.128    |
-| toffees  | 0.845      | 0.959     | 0.460        | 0.391    |
-| MEAN     | 0.625      | 0.758     | 0.205        | 0.166    |
 
-Towards Scalable 3D Anomaly Detection and Localization: A Benchmark via 3D Anomaly Synthesis and A Self-Supervised Learning Network [[paper]](https://arxiv.org/abs/2311.14897)[[code]](https://github.com/Chopper-233/Anomaly-ShapeNet)
+<img src="./img/tab2.png" width=900 alt="image-wise" align=center>
 
 
-### The 3D anomaly detection performance when using 4 prototypes for training.
+<img src="./img/tab3.png" width=900 alt="pixel-wise" align=center>
 
 
 ## Acknowledgments.
