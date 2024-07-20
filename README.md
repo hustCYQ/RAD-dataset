@@ -12,13 +12,10 @@ This study introduces a Robust Anomaly Detection (RAD) dataset with **free views
 
 # RAD
 
+Following the mainstream unsupervised anomaly detection setting (MVTec), we collected a total of 286 normal samples, of which 213 are used for training, and the remaining 73 for testing. Additionally, 327, 293, 281, and 323 abnormal samples across the four categories are used for testing, respectively.
+
+<img src="./img/tab1.png" width=400 alt="RAD Dataset" align=center>
 <img src="./img/fig4.png" width=900 alt="RAD Dataset" align=center>
-
-
-## Summary
-+ overview of all classes in Real3D-AD
-
-Real3D-AD comprises a total of 1,254 samples that are distributed across 12 distinct categories. These categories include Airplane, Car, Candybar, Chicken, Diamond, Duck, Fish, Gemstone, Seahorse, Shell, Starfish, and Toffees.
 
 
 ## Download
@@ -43,35 +40,29 @@ RAD-dataset
 ...
 ```
 
-
-
-## Dataset Statistic
-
-+ brief describe our dataset in Table 1.
   
-<img src="./img/tab1.png" width=400 alt="RAD Dataset" align=center>
-
 
 ## Data Collection
 
+As illustrated in Fig.~\ref{fig:data}, normal scenarios depict a work platform with multiple metal holes, whereas the abnormal scenarios feature the work platform with foreign objects. To establish a comprehensive benchmark for anomaly detection robustness, we introduce different types of foreign objects onto the work platform, including bolts, cable ties, sponges, and tapes. Subsequently, the images are captured under various imaging noises, encompassing random viewpoints, illuminations, and imaging distances to replicate practical noise scenarios. 
 
 <img src="./img/fig1.png" width=400 alt="instruments" align=center>
 
 
 ## Annotation
 
-
+Each abnormal sample has been accurately labeled.
 <img src="./img/fig3.png" width=400 alt="Anotation phase" align=center>
 
 ## Benchmark
 
-+ beseline methods
++ Comparison Methods
   
-We take BTF and M3DM as basic baseline methods, and improve baseline using PatchCore.
+Representative methods, including both unsupervised anomaly detection (CFlow, PyramidFlow, RD, RD++, DSR, CDO, PatchCore, GCPF) and zero-shot anomaly detection (WinCLIP, APRIL-GAN, SAA)methods, are selected for evaluation.
 
 + metrics
   
-We choose AUROC and AUPU as metric for object level and point level anomaly detection.
+We choose AUROC, Max-F1 and AP as metric for image-wise anomaly detection. We choose AUROC, Max-F1, AP and AUPRO as metric for pixel-wise anomaly detection.
 
 + benchmark results
 
