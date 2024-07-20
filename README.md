@@ -44,7 +44,7 @@ RAD-dataset
 
 ## Data Collection
 
-As illustrated in Fig.~\ref{fig:data}, normal scenarios depict a work platform with multiple metal holes, whereas the abnormal scenarios feature the work platform with foreign objects. To establish a comprehensive benchmark for anomaly detection robustness, we introduce different types of foreign objects onto the work platform, including bolts, cable ties, sponges, and tapes. Subsequently, the images are captured under various imaging noises, encompassing random viewpoints, illuminations, and imaging distances to replicate practical noise scenarios. 
+Normal scenarios depict a work platform with multiple metal holes, whereas the abnormal scenarios feature the work platform with foreign objects. To establish a comprehensive benchmark for anomaly detection robustness, we introduce different types of foreign objects onto the work platform, including bolts, cable ties, sponges, and tapes. Subsequently, the images are captured under various imaging noises, encompassing random viewpoints, illuminations, and imaging distances to replicate practical noise scenarios. 
 
 <img src="./img/fig1.png" width=400 alt="instruments" align=center>
 
