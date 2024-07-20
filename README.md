@@ -63,11 +63,11 @@ Each abnormal sample has been accurately labeled.
   
 Representative methods, including both unsupervised anomaly detection (CFlow, PyramidFlow, RD, RD++, DSR, CDO, PatchCore, GCPF) and zero-shot anomaly detection (WinCLIP, APRIL-GAN, SAA) methods, are selected for evaluation.
 
-+ metrics
++ Metrics
   
 We choose AUROC, Max-F1 and AP as metric for image-wise anomaly detection. We choose AUROC, Max-F1, AP and AUPRO as metric for pixel-wise anomaly detection.
 
-+ benchmark results
++ Benchmark results
 
 
 <img src="./img/tab2.png" width=900 alt="image-wise" align=center>
