@@ -61,7 +61,7 @@ Each abnormal sample has been accurately labeled.
 
 + Comparison Methods
   
-Representative methods, including both unsupervised anomaly detection (CFlow, PyramidFlow, RD, RD++, DSR, CDO, PatchCore, GCPF) and zero-shot anomaly detection (WinCLIP, APRIL-GAN, SAA)methods, are selected for evaluation.
+Representative methods, including both unsupervised anomaly detection (CFlow, PyramidFlow, RD, RD++, DSR, CDO, PatchCore, GCPF) and zero-shot anomaly detection (WinCLIP, APRIL-GAN, SAA) methods, are selected for evaluation.
 
 + metrics
   
