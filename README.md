@@ -63,6 +63,18 @@ Each abnormal sample has been accurately labeled.
   
 Representative methods, including both unsupervised anomaly detection (CFlow, PyramidFlow, RD, RD++, DSR, CDO, PatchCore, GCPF) and zero-shot anomaly detection (WinCLIP, APRIL-GAN, SAA) methods, are selected for evaluation.
 
+CFlow: https://github.com/gudovskiy/cflow-ad
+PyramidFlow: https://github.com/gasharper/PyramidFlow
+RD: https://github.com/hq-deng/RD4AD/tree/main
+RD++: https://github.com/tientrandinh/Revisiting-Reverse-Distillation
+DSR: https://github.com/VitjanZ/DSR_anomaly_detection
+CDO: https://github.com/caoyunkang/CDO
+PatchCore: https://github.com/amazon-science/patchcore-inspection
+GCPF: https://github.com/smiler96/GCPF
+WinCLIP: https://github.com/caoyunkang/WinClip
+APRIL-GAN: https://github.com/ByChelsea/VAND-APRIL-GAN
+SAA: https://github.com/caoyunkang/Segment-Any-Anomaly
+
 + Metrics
   
 We choose AUROC, Max-F1 and AP as metric for image-wise anomaly detection. We choose AUROC, Max-F1, AP and AUPRO as metric for pixel-wise anomaly detection.
