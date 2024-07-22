@@ -22,7 +22,7 @@ Following the mainstream unsupervised anomaly detection setting (MVTec), we coll
 
 ## Download
 
-+ To download the RAD-AD dataset,  click [RAD-dataset.zip(baidu disk: k4a7)](https://pan.baidu.com/s/19VKrQpLQq-D6TGaN95q8Tw?pwd=k4a7), google drive will share soon.
++ To download the RAD-AD dataset,  click [RAD-dataset.zip(baidu disk: k4a7)](https://pan.baidu.com/s/19VKrQpLQq-D6TGaN95q8Tw?pwd=k4a7), or [RAD-dataset(google drive)](https://drive.google.com/drive/folders/14sTEtptHbhECPbd7WyhpvtR9BA4YdjCP).
 
 
 
