@@ -61,7 +61,7 @@ Each abnormal sample has been accurately labeled.
 
 ### Comparison Methods
   
-Representative methods, including both unsupervised anomaly detection (CFlow, PyramidFlow, RD, RD++, DSR, CDO, PatchCore, GCPF) and zero-shot anomaly detection (WinCLIP, APRIL-GAN, SAA) methods, are selected for evaluation.
+Representative methods, including both unsupervised anomaly detection (CFlow, PyramidFlow, RD, RD++, DSR, CDO, PatchCore, GCPF) and zero-shot anomaly detection (WinCLIP, APRIL-GAN, SAA) methods, are selected for evaluation. You can find the code for calculating these metrics in [eval_method.py](https://github.com/hustCYQ/RAD-dataset/blob/main/eval_method.py).
 
 + CFlow: https://github.com/gudovskiy/cflow-ad
 + PyramidFlow: https://github.com/gasharper/PyramidFlow
@@ -77,7 +77,7 @@ Representative methods, including both unsupervised anomaly detection (CFlow, Py
 
 ### Metrics
   
-We choose AUROC, Max-F1 and AP as metric for image-wise anomaly detection. We choose AUROC, Max-F1, AP and AUPRO as metric for pixel-wise anomaly detection.
+We choose AUROC, Max-F1 and AP as metric for image-wise anomaly detection. We choose AUROC, Max-F1, AP and AUPRO as metric for pixel-wise anomaly detection. 
 
 ### Benchmark results
 
